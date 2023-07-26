@@ -20,9 +20,9 @@
 <body>
     <header>
         <nav
-            class="bg-[#F85559] text-white max-w-screen-xl mx-auto mt-12 px-8 md:px-12 py-7 rounded-full flex justify-between items-center">
+            class="bg-white md:bg-green-700 text-black md:text-white max-w-screen-xl mx-auto md:mt-12 px-8 md:px-12 py-7 rounded-full flex justify-between items-center">
             <!-- div-1 -->
-            <div>
+            <div class="hidden md:block">
                 <ul class="flex gap-7">
                     <li>Home</li>
                     <li>About Us</li>
@@ -31,18 +31,18 @@
                 </ul>
             </div>
             <!-- div-2 -->
-            <div class="flex items-center gap-7">
+            <div class="flex items-center md:gap-5">
                 <div>
-                    <img src="./images/logo.png" alt="">
+                    <img class="w-1/2 md:w-10" src="./images/logo.png" alt="">
                 </div>
                 <div>
-                    <h3 class="text-4xl">Fruit Burst</h3>
+                    <h3 class="text-lg md:text-4xl">Fruit Burst</h3>
                 </div>
             </div>
             <!-- div-3 -->
             <div>
 
-                <input class="rounded-full w-96 pl-5 py-4" type="search" placeholder="Search here" name="" id="">
+                <input class="rounded-full bg-gray-100 md:bg-white text-sm md:text-base md:w-96 pl-5 py-4" type="search" placeholder="Search here" name="" id="">
                 <i class="fa-solid fa-magnifying-glass text-black -ml-10"></i>
             </div>
         </nav>
