@@ -20,7 +20,7 @@
 <body>
     <header>
         <nav
-            class="bg-white md:bg-green-700 text-black md:text-white max-w-screen-xl mx-auto md:mt-12 px-8 md:px-12 py-7 rounded-full flex justify-between items-center">
+            class="bg-white md:bg-green-700 text-black md:text-white max-w-screen-xl mx-auto md:mt-12  md:px-12 py-7 rounded-full flex justify-between items-cente">
             <!-- div-1 -->
             <div class="hidden md:block">
                 <ul class="flex gap-7">
@@ -31,7 +31,7 @@
                 </ul>
             </div>
             <!-- div-2 -->
-            <div class="flex items-center md:gap-5">
+            <div class="flex items-center md:gap-5 px-3">
                 <div>
                     <img class="w-1/2 md:w-10" src="./images/logo.png" alt="">
                 </div>
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <!-- div-3 -->
-            <div>
+            <div class="px-8">
 
                 <input class="rounded-full bg-gray-100 md:bg-white text-sm md:text-base md:w-96 pl-5 py-4" type="search"
                     placeholder="Search here" name="" id="">
@@ -49,17 +49,17 @@
         </nav>
         <!-- banner section -->
         <section class="max-w-screen-xl mx-auto
-         md:mt-12">
+         md:mt-12 px-3">
             <div>
-                <div class="carousel w-full">
+                <div class="carousel md:h-full w-full">
                     <!-- slide-1 -->
-                    <div id="slide1" class="carousel-item relative w-full hero min-h-[600px]"
+                    <div id="slide1" class="carousel-item relative md:w-full hero md:min-h-[600px]"
                         style="background-image: url(./images/banner1.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="max-w-md">
-                                <h1 class="mb-5 text-6xl font-bold">Exotic tastes at your doorstep</h1>
-                                <p class="mb-5">We supply highly quality organic products</p>
+                                <h1 class="mb-5 text-4xl md:text-6xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-1 md:mb-5 text-sm md:text-base">We supply highly quality organic products</p>
                                 <button class="btn btn-primary  bg-green-600 border-transparent">Shop Now</button>
                             </div>
                             <div
@@ -68,16 +68,15 @@
                                 <a href="#slide2" class="btn btn-circle">❯</a>
                             </div>
                         </div>
-
                     </div>
                     <!-- slide-2 -->
-                    <div id="slide2" class="carousel-item relative w-full hero min-h-[600px]"
+                    <div id="slide2" class="carousel-item relative w-full hero md:min-h-[600px]"
                         style="background-image: url(./images/banner2.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="max-w-md">
-                                <h1 class="mb-5 text-6xl font-bold">Exotic tastes at your doorstep</h1>
-                                <p class="mb-5">We supply highly quality organic products</p>
+                                <h1 class="mb-5 text-4xl md:text-6xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-1 md:mb-5 text-sm md:text-base">We supply highly quality organic products</p>
                                 <button class="btn btn-primary  bg-green-600 border-transparent">Shop Now</button>
                             </div>
                             <div
@@ -88,13 +87,13 @@
                         </div>
                     </div>
                     <!-- slide-3 -->
-                    <div id="slide3" class="carousel-item relative w-full hero min-h-[600px]"
+                    <div id="slide3" class="carousel-item relative w-full hero md:min-h-[600px]"
                         style="background-image: url(./images/banner3.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="max-w-md">
-                                <h1 class="mb-5 text-6xl font-bold">Exotic tastes at your doorstep</h1>
-                                <p class="mb-5">We supply highly quality organic products</p>
+                                <h1 class="mb-5 text-4xl md:text-6xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-1 md:mb-5 text-sm md:text-base">We supply highly quality organic products</p>
                                 <button class="btn btn-primary  bg-green-600 border-transparent">Shop Now</button>
                             </div>
                             <div
@@ -105,13 +104,13 @@
                         </div>
                     </div>
                     <!-- slide-4 -->
-                    <div id="slide4" class="carousel-item relative w-full hero min-h-[600px]"
+                    <div id="slide4" class="carousel-item relative w-full hero md:min-h-[600px]"
                         style="background-image: url(./images/banner4.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center text-neutral-content">
                             <div class="max-w-md">
-                                <h1 class="mb-5 text-6xl font-bold">Exotic tastes at your doorstep</h1>
-                                <p class="mb-5">We supply highly quality organic products</p>
+                                <h1 class="mb-5 text-4xl md:text-6xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-1 md:mb-5 text-sm md:text-base">We supply highly quality organic products</p>
                                 <button class="btn btn-primary  bg-green-600 border-transparent">Shop Now</button>
                             </div>
                             <div
@@ -125,7 +124,7 @@
             </div>
             <div>
                 <!-- bonus section -->
-                <section class="max-w-screen-xl bg-red-300 mx-56 px-16 py-10 flex justify-between relative mb-48 hidden">
+                <section class="max-w-screen-xl bg-white drop-shadow-lg mx-28 px-10 py-10 md:flex justify-between relative -mt-28 hidden ">
                     <div class="text-center">
                         <img src="./images/fruit1.png" alt="">
                         <p>Grape</p>
@@ -155,36 +154,36 @@
 
     <main>
         <!-- deal of the day section -->
-        <section class="max-w-screen-xl mx-auto mt-4 md:mt-12 md:flex justify-between">
+        <section class="max-w-screen-xl mx-auto mt-4 md:mt-36 md:flex text-center md:justify-between gap-10">
             <div>
                 <h2 class="text-2xl md:text-5xl text-center md:text-left font-bold md:mb-6">Deal of the day</h2>
-                <p class="mt-4 text-sm md:text-lg text-center md:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+                <p class="mt-4 px-3 text-sm md:text-lg text-center md:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
                     Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
 
             <!-- countdown section -->
-            <div>
-                <div class="grid grid-flow-col gap-5 text-center auto-cols-max px-20 mt-4">
+            <div class="w-60 px-5 md:w-auto md:p-0 mx-auto">
+                <div class="grid grid-flow-col gap-2 md:gap-5 text-center auto-cols-max mt-4">
                     <div class="flex flex-col">
-                        <span class="countdown font-mono text-4xl md:text-5xl font-bold">
+                        <span class="countdown font-mono text-3xl md:text-5xl font-bold">
                             <span style="--value:29;"></span>:
                         </span>
                         days
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown font-mono text-4xl md:text-5xl font-bold">
+                        <span class="countdown font-mono text-3xl md:text-5xl font-bold">
                             <span style="--value:15;"></span>:
                         </span>
                         hours
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown font-mono text-4xl md:text-5xl font-bold">
+                        <span class="countdown font-mono text-3xl md:text-5xl font-bold">
                             <span style="--value:25;"></span>:
                         </span>
                         min
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown font-mono text-4xl md:text-5xl font-bold">
+                        <span class="countdown font-mono text-3xl md:text-5xl font-bold">
                             <span style="--value:08;"></span>
                         </span>
                         sec
@@ -206,7 +205,7 @@
                         <hr>
                         <p>Apples</p>
                         <!-- ratings -->
-                        <div class="rating rating-lg rating-half">
+                        <div class="w-1/2 md:w-2/3 rating rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
                             <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
@@ -235,7 +234,7 @@
                         <hr>
                         <p>Orange</p>
                         <!-- ratings -->
-                        <div class="rating rating-lg rating-half">
+                        <div class="w-1/2 md:w-2/3 rating rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
                             <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
@@ -264,7 +263,7 @@
                         <hr>
                         <p>Red Dragon</p>
                         <!-- ratings -->
-                        <div class="rating rating-lg rating-half">
+                        <div class="w-1/2 md:w-2/3 rating rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
                             <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
@@ -293,7 +292,7 @@
                         <hr>
                         <p>Banana</p>
                         <!-- ratings -->
-                        <div class="w-2/3 rating rating-lg rating-half">
+                        <div class="w-1/2 md:w-2/3 rating rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
                             <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
